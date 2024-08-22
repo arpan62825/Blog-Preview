@@ -100,3 +100,37 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .blog-card {
+    max-width: 90%;
+    margin: 0 auto;
+    box-shadow: 6.5px 6.5px var(--gray-950);
+  }
+
+  .svg svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .content h1 {
+    font-size: 22px;
+  }
+
+  .detail {
+    font-size: 14px;
+  }
+
+  .profile img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .profile p {
+    font-size: 14px;
+  }
+}
